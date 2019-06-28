@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.TestngListeners"/>
+  </listeners>
+  <test thread-count="5" name="EZBOT Test(failed)">
+    <classes>
+      <class name="smoke_TestPages.User_Mgt_Test">
+        <methods>
+          <include name="usermgttest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- smoke_TestPages.User_Mgt_Test -->
+    </classes>
+  </test> <!-- EZBOT Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

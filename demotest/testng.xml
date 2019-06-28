@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listeners.TestngListeners"></listener>
+</listeners>
+  <test thread-count="5" name="EZBOT Test">
+    <classes>
+      <class name="smoke_TestPages.Sales_Test"></class>
+      <class name="smoke_TestPages.Inventory_Test"></class>
+      <class name="smoke_TestPages.Reports_Test"></class>
+      <class name="smoke_TestPages.Admin_Test"></class>
+      <class name="smoke_TestPages.User_Mgt_Test"></class>
+      <class name="smoke_TestPages.Dashboard_Test"></class>
+    </classes>
+     </test> <!-- Test -->
+       
+</suite> <!-- Suite -->
